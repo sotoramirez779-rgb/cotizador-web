@@ -18,7 +18,7 @@ Mini aplicación web que recibe por formulario los datos de un cliente y de un p
 | Ronald Yamil Soto Ramirez | Ejecución en Tomcat, repositorio/README y cierre |
 
 ## Video de exposición
-[Ver video en YouTube](PEGAR_ENLACE_AQUI)
+[Ver video en YouTube](https://www.youtube.com/watch?v=tPdiajCh9MQ)
 
 ## Métodos usados
 - **Math:** `round`, `max`, `min`, `ceil`, `abs`
