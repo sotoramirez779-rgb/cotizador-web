@@ -11,10 +11,10 @@ Mini aplicación web que recibe por formulario los datos de un cliente y de un p
 ## Integrantes y responsabilidades
 | Integrante | Parte del caso que resolvió |
 |---|---|
-| _Integrante 1_ | Presentación, flujo general y formulario `index.jsp` con estilos Alejandro Vicente Cori Contreras |
-| _Integrante 2_ | Clase `Validador` (métodos de `String`) Luigui Alva Sánchez |
-| _Integrante 3_ | Clase `Cotizacion` (métodos de `Math`) Natalia Milene Rojas Escudero  |
-| _Integrante 4_ | `resultado.jsp` y pruebas Sergio Enrique Vargas Fernández |
+| Alejandro Vicente Cori Contreras | Presentación, flujo general y formulario `index.jsp` con estilos  |
+| Luigui Alva Sánchez | Clase `Validador` (métodos de `String`)  |
+| Natalia Milene Rojas Escudero | Clase `Cotizacion` (métodos de `Math`)   |
+| Sergio Enrique Vargas Fernández | `resultado.jsp` y pruebas  |
 | Ronald Yamil Soto Ramirez | Ejecución en Tomcat, repositorio/README y cierre |
 
 ## Video de exposición
