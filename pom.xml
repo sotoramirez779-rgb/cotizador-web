@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>pe.isil</groupId>
+  <artifactId>cotizador</artifactId>
+  <version>1.0</version>
+  <packaging>war</packaging>
+  <name>Cotizador Web - PA2 POO</name>
+
+  <properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <failOnMissingWebXml>false</failOnMissingWebXml>
+  </properties>
+
+  <build>
+    <finalName>cotizador</finalName>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.4.0</version>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.cargo</groupId>
+        <artifactId>cargo-maven3-plugin</artifactId>
+        <version>1.10.14</version>
+        <configuration>
+          <container>
+            <containerId>tomcat10x</containerId>
+            <zipUrlInstaller>
+              <url>https://archive.apache.org/dist/tomcat/tomcat-10/v10.1.28/bin/apache-tomcat-10.1.28.zip</url>
+            </zipUrlInstaller>
+          </container>
+          <configuration>
+            <properties>
+              <cargo.servlet.port>8080</cargo.servlet.port>
+            </properties>
+          </configuration>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
